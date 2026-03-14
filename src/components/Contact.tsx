@@ -27,11 +27,32 @@ const Contact = () => {
         },
     });
 
+    // const onSubmit = (data: FormValues) => {
+    //     console.log("Form submitted:", data);
+    //     toast.success("Message sent! I'll get back to you soon.");
+    //     form.reset();
+    // };
     const onSubmit = (data: FormValues) => {
-        console.log("Form submitted:", data);
-        toast.success("Message sent! I'll get back to you soon.");
-        form.reset();
-    };
+        const phoneNumber = "918978388567";
+
+        const message = `
+    New Contact Form Submission
+
+    Name: ${data.name}
+    Email: ${data.email}
+    Subject: ${data.subject}
+    Message: ${data.message}
+    `;
+
+    const encodedMessage = encodeURIComponent(message);
+
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+    window.open(whatsappURL, "_blank");
+
+    toast.success("Redirecting to WhatsApp...");
+    form.reset();
+};
 
     return (
         <section id="contact-form" className="py-24 md:py-32 bg-secondary/30">

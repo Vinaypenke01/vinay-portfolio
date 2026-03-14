@@ -10,9 +10,9 @@ const Footer = () => {
             Twitter
           </a>
           <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-sm font-sans hover:text-foreground transition-colors">
-            Dribbble
+            Git Hub
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-sm font-sans hover:text-foreground transition-colors">
+          <a href="www.linkedin.com/in/vinaypenke/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-sm font-sans hover:text-foreground transition-colors">
             LinkedIn
           </a>
         </div>
