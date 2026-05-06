@@ -22,9 +22,9 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-6xl md:text-8xl lg:text-9xl font-serif font-normal text-foreground leading-[0.95] tracking-tight text-left"
         >
-          Web Design
+          Software
           <br />
-          & Framer
+          Engineer
         </motion.h1>
 
         <motion.p
@@ -33,7 +33,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="mt-8 text-lg md:text-xl text-muted-foreground max-w-md font-sans leading-relaxed"
         >
-          Premium web design, webflow, and SEO services to help your business stand out.
+          Building modern full-stack and AI-powered web applications using Python, React, and Generative AI tools.
         </motion.p>
       </div>
     </section>

@@ -3,21 +3,21 @@ import { motion } from "framer-motion";
 const services = [
   {
     num: "01",
-    title: "Web design",
+    title: "Full-Stack Development",
     description:
-      "Premium, custom web design services that cater to the unique needs of each client. Visually stunning and user-friendly websites that drive results.",
+      "End-to-end web application development using React, Python, Django, and modern databases like PostgreSQL. Delivering scalable, high-performance solutions.",
   },
   {
     num: "02",
-    title: "Framer Development",
+    title: "AI & LLM Integrations",
     description:
-      "Beautiful, functional websites created using the powerful Framer platform. Highly customizable and easily manageable, even with no prior web development experience.",
+      "Integrating Generative AI tools (Grok, Llama), building LLM pipelines, and deploying OCR solutions to transform raw data into intelligent structured insights.",
   },
   {
     num: "03",
-    title: "Content & Seo",
+    title: "Backend Architecture",
     description:
-      "Comprehensive services that help businesses build a strong online presence. High-quality, engaging content that drives conversions, optimized for search engines.",
+      "Designing robust backend architectures, building complex REST APIs using Django REST Framework (DRF), and implementing secure multi-stakeholder workflows.",
   },
 ];
 
@@ -35,10 +35,10 @@ const Services = () => {
             Services
           </span>
           <h2 className="mt-4 text-4xl md:text-5xl lg:text-6xl font-serif text-foreground leading-tight max-w-2xl">
-            Design, Development, and Content. All-in-one.
+            Development, Architecture, and AI. All-in-one.
           </h2>
           <p className="mt-6 text-muted-foreground text-lg max-w-xl font-sans">
-            Take your online presence to the next level with my expert web design and content creation services.
+            Elevate your digital products with robust engineering, modern full-stack frameworks, and cutting-edge generative AI capabilities.
           </p>
         </motion.div>
 

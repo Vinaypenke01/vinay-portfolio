@@ -3,35 +3,35 @@ import { motion } from "framer-motion";
 const steps = [
   {
     num: "01",
-    title: "Concept",
+    title: "Requirement Analysis",
     description:
-      "During the concept phase, I work closely with my clients to understand their needs and goals for their website.",
+      "I work closely with clients or stakeholders to understand their business needs, technical constraints, and long-term goals.",
     bullets: [
-      "Reviewing any existing branding",
-      "Target audience and competitors research",
-      "Developing a strategy",
+      "Defining system architecture",
+      "Selecting the right tech stack",
+      "Drafting an actionable roadmap",
     ],
   },
   {
     num: "02",
-    title: "Design",
+    title: "Development & Integration",
     description:
-      "Once the concept is established, I move on to the design phase. Here, I create a visual representation of the website that reflects the client's brand and messaging.",
+      "This is where the coding happens. I build robust backend APIs, integrate AI pipelines, and develop responsive, user-friendly frontend interfaces.",
     bullets: [
-      "Developing wireframes and mockup",
-      "Choosing typography, color palettes, and imagery",
-      "Refining the design",
+      "Writing clean, maintainable code",
+      "Integrating LLMs and external APIs",
+      "Ensuring secure data workflows",
     ],
   },
   {
     num: "03",
-    title: "Framer",
+    title: "Testing & Deployment",
     description:
-      "After the design is finalized, I move on to building the website using Framer.",
+      "Before going live, the application undergoes rigorous testing to ensure performance, security, and cross-device compatibility.",
     bullets: [
-      "Translating the design into code using Framer",
-      "Responsive and functions perfectly across all devices",
-      "Testing the website thoroughly before launch",
+      "Automated and manual testing",
+      "Performance optimization",
+      "Smooth production deployment",
     ],
   },
 ];
@@ -51,7 +51,7 @@ const Process = () => {
           </span>
           <div className="flex flex-col md:flex-row md:items-end md:justify-between mt-4">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-foreground leading-tight max-w-xl">
-              Your Dream Website in just few steps
+              From Concept to Deployment
             </h2>
             <a
               href="#contact"
@@ -62,7 +62,7 @@ const Process = () => {
             </a>
           </div>
           <p className="mt-6 text-muted-foreground text-lg max-w-xl font-sans">
-            From consultation to launch, our streamlined process ensures timely delivery and quality work.
+            A structured engineering process ensures scalable, high-quality software delivered on time.
           </p>
         </motion.div>
 

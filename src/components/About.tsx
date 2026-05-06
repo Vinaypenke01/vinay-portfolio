@@ -29,13 +29,13 @@ const About = () => {
               About
             </span>
             <h2 className="mt-4 text-4xl md:text-5xl font-serif text-foreground leading-tight">
-              A website that leaves a lasting impression!
+              Building innovative applications with Generative AI tools.
             </h2>
             <p className="mt-6 text-muted-foreground font-sans leading-relaxed">
-              Your website is your digital storefront, and it should create an unforgettable impression. Let me design and develop a website that reflects your brand's personality and creates a lasting impression on your audience.
+              I am a Software Engineer with 10 months of hands-on experience building modern full-stack and AI-powered web applications using Python, Django, DRF, React, and SQL.
             </p>
             <p className="mt-4 text-muted-foreground font-sans leading-relaxed">
-              With my expertise in web design and development, I can help you build a website that stands out and leaves a lasting impact.
+              Highly proficient in leveraging AI tools like Grok, Llama, and LLM pipelines to accelerate development and improve code quality. I am passionate about creating impactful digital solutions that bridge the gap between complex backend architectures and intuitive user experiences.
             </p>
             <a
               href="#about"
